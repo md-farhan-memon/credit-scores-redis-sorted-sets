@@ -54,7 +54,7 @@ def print_rank_of_user
 end
 
 def print_user_by_rank
-  print "\nRank to be searched (Should be greater than 1):"
+  print "\nRank to be searched (Should be greater than 0): "
 
   rank = gets.chomp.to_i
   if rank.zero?
